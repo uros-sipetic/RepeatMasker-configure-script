@@ -437,6 +437,7 @@ sub searchEngineMenu {
       print "<PRESS ENTER TO CONTINUE>\n";
       $answer = <STDIN>;
     }
+    $done = 1;
   } while ( $done == 0 );
 
   # Figure out who is the default.
